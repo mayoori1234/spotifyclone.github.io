@@ -1,0 +1,363 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+    text-decoration: none;
+   
+    font-weight:bolder;
+}
+#id1{
+    height:70px;
+    width:100%;
+    background-color:black;
+}
+#art{
+    height:70px;
+    width:75%;
+    /* border:2px solid white; */
+    margin:0 auto;
+    display: flex;
+}
+#logo{
+    height: 70px;
+    width:50%;
+    border:green;
+
+}
+#nav{
+    height:70px;
+    width:50%;
+    font-size: 15px;
+    
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px;
+}
+ul li a{
+    padding: 10px;
+    color:white;
+    
+}
+a:hover{
+    color: green;
+}
+svg{
+    width: 30%;
+    fill:azure;
+}
+#id2{
+    height: 89vh;
+    width: 100%;
+    background-color:rgb(153, 51, 153);
+}
+#sec1div1{
+height:100%;
+width:75%;
+/* border:2px solid white; */
+margin:0px auto;
+display: flex;
+justify-content: space-between;
+
+}
+#divdiv1{
+height: 100%;
+width: 60%;
+/* border:2px solid chocolate; */
+display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+#divdiv2{
+    height: 100%;
+    width: 33%;
+    /* border:2px solid yellowgreen; */
+    }
+    #top1{
+        height:50px;
+        /* border:2px solid red; */
+        font-size: 10PX;
+        margin: top 70px;
+    }
+    #top2
+    {
+        height: 120px;
+        /* border: 2px solid red; */
+        font-size: 35PX;
+    }
+    #top3
+    {
+        height: 70px;
+        /* border: 2px solid red; */
+    }
+    #top4{
+        height: 50px;
+        /* border: 2px solid red; */
+    }
+    #top5{
+        height: 50px;
+        /* border: 2px solid red; */
+        font-size:10px;
+    }
+#top5 p a{
+    color: white;
+    text-decoration: underline;
+}
+#top4 a button{
+    height: 50px;
+    width: 200px;
+    border-radius:100px;
+    background-color: black;
+    color: white;
+}
+#top4 span{
+    font-size: 15px;
+}
+#divdiv2{
+    
+    background-image:url(/images/spotify.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+     
+    margin-top:100px;
+}
+#top4 button:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+#id3{
+    height: 89vh;
+    width: 100%;
+   background-color:rgb(41, 65, 171);
+   background-image: url(/images/SPOTIF.svg);
+   background-size: 150% 181%;
+   background-position: center;
+}
+#id3 #sec2div1{
+height:100%;
+width:75%;
+ /* border:2px solid white;  */
+margin:0px auto;
+display:flex;
+--text-base: #1ed760;
+
+justify-content: space-between;
+}
+#div1div1{
+    height: 100%;
+    width: 60%;
+/* border:2px solid chocolate; */
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    color: #1ed760;
+    font-family:'Roboto', sans-serif;
+}
+#text1{
+    height:50px;
+        /* border:2px solid red; */
+        font-size: 10PX;
+        margin: top 70px;
+
+}
+#text2{
+    height: 120px;
+        /* border: 2px solid red; */
+        font-size: 35PX;    
+}
+#text3{
+    height: 70px;
+}
+#text4
+{
+    height: 50px;
+}
+#text4 a button
+{
+    height: 50px;
+    width: 200px;
+    border-radius:100px;
+    background-color:#14e85e;
+   
+}
+#text4 a button span{
+    color: #2941AB;
+}
+#text4 button:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+#text4 span{
+    font-size: 15px;
+}
+
+.foot{
+    height: 74vh;
+    background-color: black;
+}
+#footerbackground{
+    /* height: 74vh;
+     background-color: black; */
+     display: flex;
+     justify-content: space-evenly;
+}
+.footer{
+    height: 50vh;
+    width: 100%;
+    /* border: 2px solid white; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#foot2{
+    height: 100%;
+    width: 76%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+#logobox{
+    fill: white;
+    width: 13%;
+    /* border: 2px solid yellow; */
+    height: 100%;
+}
+#footerlogo svg{
+    width: 95%;
+}
+#footerlist{
+    color: white;
+    display: flex;
+}
+
+.dl{
+    width: 170px;
+    /* border: 2px solid tomato; */
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+dl a{
+    color: #fff;
+    text-decoration: none;
+}
+dl a:hover{
+    color: #1ed760;
+}
+dl dt{
+    font-size: 12px;
+    color: #919496;
+}
+dd{
+    font-size: 13px;
+}
+
+#footericons{
+    height: 100%;
+    width: 23%;
+    /* border: 2px solid aquamarine; */
+    margin-left: auto;
+    
+}
+#iconbackground li{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color:#222326;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#iconbackground ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+}
+#iconbackground li i{
+    font-size: 23px;
+    color: white;
+}
+#iconbackground li:hover i{
+    cursor: pointer;
+    color: #1ed760;
+}
+#iconbackground li:hover{
+    cursor: pointer;
+}
+#bottom1{
+    height: 30px;
+    width: 76%;
+    /* border: 2px solid blue; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#bottom2{
+    height: 30px;
+    width: 76%;
+    /* border: 2px solid blue; */
+    margin: 0px auto;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#bottom1 a{
+    color: #919496;
+    text-decoration: none;
+    font-size: 12px;
+}
+#bottom1 a svg{
+    margin: 0px 8px 0px 0px;
+}
+#bottom2 ul li{
+    list-style: none;
+    font-size: 12px;
+}
+#bottom2 ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+#bottom2 div{
+    height: 30px;
+    width: 39%;
+    /* border: 2px solid goldenrod; */
+    
+}
+#footdiv{
+    display: flex;
+    justify-content: flex-end;
+}
+#footdiv span{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    margin-left: 5px;
+    color: #919496;
+}
+#bottom2 div ul a{
+    color: #919496;
+    text-decoration: none;
+}
+#bottom2 li:hover, #indiatext:hover{
+    color: #1ed760;
+
+}
+
+
+
+
+
+
